@@ -255,7 +255,8 @@
       "files": [
         "audit-command-cutover.test.cjs",
         "audit-fix-command.test.cjs",
-        "audit-milestone-filename-guard.test.cjs"
+        "audit-milestone-filename-guard.test.cjs",
+        "audit-uat-acknowledged.test.cjs"
       ],
       "issue": "#3796 \u2014 the third file is a structural guard over the shipped audit-milestone workflow text (writer/reader filename agreement), not a behavior suite of the audit module; consolidation into the CLI suites would put a source-text scan behind spawn-heavy fixtures."
     }
