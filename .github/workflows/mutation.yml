@@ -182,7 +182,7 @@ jobs:
         with:
           name: mutation-report-${{ matrix.name }}-${{ github.run_number }}
           path: reports/mutation/mutation.html
-          retention-days: 14
+          retention-days: 7
 
   # ── Job 3: mutation-gate ───────────────────────────────────────────────────
   # Stable required-check name for branch protection.
